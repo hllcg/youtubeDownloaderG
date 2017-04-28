@@ -5,3 +5,8 @@ downloaderInterface::downloaderInterface()
 
 }
 
+void downloaderInterface::download()
+{
+
+}
+

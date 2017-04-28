@@ -14,9 +14,15 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    downloader.cpp
+    downloader.cpp \
+    converter.cpp \
+    converterinterface.cpp \
+    downloaderinterface.cpp
 
 HEADERS  += mainwindow.h \
-    downloader.h
+    downloader.h \
+    converter.h \
+    converterinterface.h \
+    downloaderinterface.h
 
 FORMS    += mainwindow.ui
